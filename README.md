@@ -45,6 +45,6 @@ the ```gt``` folder is masks. With the background masked in black, and the handw
 
 the ```im``` folder is the normal image of the handwriting dataset.
 
-The code to generate the masks is ```create_masks.py```
+The code that was used to generate the dataset in the Huggingface Repo is ```create_masks.py```
 
 
