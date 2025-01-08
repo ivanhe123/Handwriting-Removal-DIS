@@ -11,9 +11,11 @@ git clone https://github.com/xuebinqin/DIS
 
 2. Install the requirements via ```pip install -r requirements.txt```
 
-3. Replace ```Inference.py``` in the cloned DIS folder to the ```Inference.py``` of this repository.
+3. Download the ```isnet.pth``` file from my [huggingface model repository](https://huggingface.co/Inoob/DIS-Handwriting-Remover/) and move it into the cloned DIS folder.
 
-4. Change the paths according to your own application.
+4. Replace ```Inference.py``` in the cloned DIS folder to the ```Inference.py``` of this repository.
+
+5. Change the paths according to your own application (Evaluation data path may be different).
 
 ## Related Research
 AndSonder has also done research and experimentaion on the same subject but using deeplabv3+ to segment the handwriting.
