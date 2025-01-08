@@ -81,6 +81,11 @@ git clone https://github.com/xuebinqin/DIS
 
 4. Adjust the dataset paths and hyperparameters accordingly.
 
+## Performance
+
+| Iteration | train Loss | train TarLoss | val Loss | val TarLoss | maxF1 | mae |
+|-----------|------------|---------------|----------|-------------|-------|-----|
+| 11700     | 0.3089     | 0.019         | 0.3067   | 0.023       | 0.8982| 0.0092|
 
 ## HELP ME!!!
 
