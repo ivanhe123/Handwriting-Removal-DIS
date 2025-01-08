@@ -24,19 +24,19 @@ After unzipping train.zip and val.zip, the file tree should look like:
 
 ```
 |-train
-    |-gt
-      |- dehw_train_00714.png
-      |- dehw_train_00715.png
-      ...
-    |-im
-      |- dehw_train_00714.jpg
-      |- dehw_train_00715.jpg
+|    |-gt
+|    |  |- dehw_train_00714.png
+|    |  |- dehw_train_00715.png
+|    |  ...
+|    |-im
+|    |  |- dehw_train_00714.jpg
+|    |  |- dehw_train_00715.jpg
 |-val
-    |-gt
-      |- dehw_train_00000.png
-      |- dehw_train_00001.png
-      ...
-    |-im
-      |- dehw_train_00000.png
-      |- dehw_train_00001.png
+|    |-gt
+|    |  |- dehw_train_00000.png
+|    |  |- dehw_train_00001.png
+|    |  ...
+|    |-im
+|    |  |- dehw_train_00000.png
+|    |  |- dehw_train_00001.png
 ```
