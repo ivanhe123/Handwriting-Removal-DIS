@@ -99,13 +99,13 @@ def runer(f):
     wite = np.ones_like(im) * 255
     cropped = np.where(result == 0, wite, mask)
     #show_pic(cropped)
-    cv2.imwrite(result_path + f, cropped[:h, :w])
+    cv2.imwrite(os.path.join(result_path, f), cropped[:h, :w])
     return cropped[:h, :w]
 
 if __name__ == "__main__":
     dataset_path="./val/im"  #Your dataset path
     model_path="./isnet.pth"  # the model path
-    result_path="./res/"  #The folder path that you want to save the results
+    result_path="./res"  #The folder path that you want to save the results
 
     net = ISNetDIS()
 
