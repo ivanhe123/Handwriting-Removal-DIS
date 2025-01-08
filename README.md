@@ -40,3 +40,7 @@ After unzipping train.zip and val.zip, the file tree should look like:
 |    |  |- dehw_train_00000.png
 |    |  |- dehw_train_00001.png
 ```
+
+the ```gt``` folder is masks. With the background masked in black, and the handwriting masked as white (a.k.a ground truth data).
+
+the ```im``` folder is the normal image of the handwriting dataset.
