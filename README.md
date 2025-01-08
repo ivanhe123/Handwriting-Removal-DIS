@@ -1,5 +1,5 @@
 # Handwriting-Removal-DIS
-My effort into improving handwriting removal throught the new DIS (Dichotomous Image Segmentation)
+My effort into improving handwriting removal throught the new [DIS (Dichotomous Image Segmentation)](https://github.com/xuebinqin/DIS)
 
 ## Related Research
 AndSonder has also done research and experimentaion on the same subject but using deeplabv3+ to segment the handwriting.
