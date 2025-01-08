@@ -47,4 +47,8 @@ the ```im``` folder is the normal image of the handwriting dataset.
 
 The code that was used to generate the dataset in the Huggingface Repo is ```create_masks.py```
 
+## Training
 
+I used the ```train_valid_inference_main.py``` from [DIS](https://github.com/xuebinqin/DIS) with my own dataset and training batch size.
+
+You can scale the batch size up if you have enough memory.
