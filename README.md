@@ -9,9 +9,11 @@ My effort into improving handwriting removal throught the new [DIS (Dichotomous 
 git clone https://github.com/xuebinqin/DIS
 ```
 
-2. Replace ```Inference.py``` in the cloned DIS folder to the ```Inference.py``` of this repository.
+2. Install the requirements via ```pip install -r requirements.txt```
 
-3. Change the paths according to your own application.
+3. Replace ```Inference.py``` in the cloned DIS folder to the ```Inference.py``` of this repository.
+
+4. Change the paths according to your own application.
 
 ## Related Research
 AndSonder has also done research and experimentaion on the same subject but using deeplabv3+ to segment the handwriting.
@@ -71,9 +73,11 @@ You can scale the batch size up if you have enough memory.
 git clone https://github.com/xuebinqin/DIS
 ```
 
-2. Replace the ```train_valid_inference_main.py``` from the cloned DIS folder with the ```train_valid_inference_main.py``` from this repository.
+2. Install the requirements via ```pip install -r requirements.txt```
 
-3. Adjust the dataset paths and hyperparameters accordingly.
+3. Replace the ```train_valid_inference_main.py``` from the cloned DIS folder with the ```train_valid_inference_main.py``` from this repository.
+
+4. Adjust the dataset paths and hyperparameters accordingly.
 
 
 ## HELP ME!!!
